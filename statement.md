@@ -12,6 +12,21 @@ The project focuses on recording expenses and providing basic expense analysis t
 
 The application is intended for students and individuals who want a simple way to record and review their expenses.
 
+
+## Objectives
+
+The main objectives of the project are:
+
+- To create a simple expense tracking application using Python.
+- To allow users to record their daily expenses.
+- To allow users to view previously recorded expenses.
+- To calculate total expenses automatically.
+- To find the highest individual expense.
+- To analyze expenses according to categories.
+- To store expense information permanently using JSON.
+- To demonstrate modular programming using multiple Python files.
+- To validate user input and handle invalid entries.
+
 ## High-Level Features
 
 - Add expenses
@@ -19,4 +34,6 @@ The application is intended for students and individuals who want a simple way t
 - Calculate total expenses
 - Find the highest expense
 - Analyze expenses by category
-- Store expense information for later use
+- Validate user input
+- Store expense information in a JSON file
+- Load previously stored expenses when the program starts
