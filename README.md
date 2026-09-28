@@ -33,3 +33,18 @@ The project allows users to add expenses, view recorded expenses, calculate tota
 3. run the program
 4. select an option from the menu 
 5. follow the instructions as displayed in the terminal
+
+
+## Project Structure
+
+Expense-Tracker/
+├── Data/
+│   └── expenses.json
+├── ExpenseTracker.py
+├── expense_manager.py
+├── analysis.py
+├── file_handler.py
+├── validation.py
+├── README.md
+├── statement.md
+└── requirements.txt
