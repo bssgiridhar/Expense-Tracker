@@ -38,13 +38,13 @@ The project allows users to add expenses, view recorded expenses, calculate tota
 ## Project Structure
 
 Expense-Tracker/
-├── Data/
-│   └── expenses.json
-├── ExpenseTracker.py
-├── expense_manager.py
-├── analysis.py
-├── file_handler.py
-├── validation.py
-├── README.md
-├── statement.md
-└── requirements.txt
+      Data/
+         expenses.json
+      ExpenseTracker.py
+      expense_manager.py
+      analysis.py
+      file_handler.py
+      validation.py
+      README.md
+      statement.md
+      requirements.txt
