@@ -34,6 +34,20 @@ The project allows users to add expenses, view recorded expenses, calculate tota
 4. select an option from the menu 
 5. follow the instructions as displayed in the terminal
 
+## Testing
+
+To test the application:
+
+1. Run the program from the terminal.
+2. Add a few sample expenses.
+3. View the saved expenses.
+4. Check the total expense.
+5. Check the highest expense.
+6. Check category-wise analysis.
+7. Restart the program and verify that saved expenses are loaded.
+8. Test invalid amount and empty text inputs.
+
+
 
 ## Project Structure
 
