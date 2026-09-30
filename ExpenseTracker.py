@@ -4,11 +4,9 @@ from analysis import show_total, show_highest, category_analysis
 
 
 def print_title():
-    print()
-    print("=" * 45)
     print("             EXPENSE TRACKER")
-    print("=" * 45)
-
+    
+# You can select the follwing options which you want to add or modify
 
 def print_menu():
     print()
@@ -20,6 +18,7 @@ def print_menu():
     print("6. Exit")
     print()
 
+# Enter your prefered choices
 
 def get_choice():
     choice = input("Enter your choice: ")
@@ -31,6 +30,7 @@ def show_welcome():
     print("You can record and analyse your expenses.")
     print()
 
+# Below specify preferred choice
 
 def show_add_message():
     print()
@@ -74,11 +74,13 @@ def invalid_choice():
     print("Please select a number from 1 to 6.")
     print()
 
+# Below handles the add  expense choice if preferred by you 
 
 def run_add_expense(expenses):
     show_add_message()
     add_expense(expenses)
 
+# Below handles the view expenses choice if preferred by you 
 
 def run_view_expenses(expenses):
     show_view_message()
@@ -99,6 +101,7 @@ def run_category_analysis(expenses):
     show_category_message()
     category_analysis(expenses)
 
+# Below decides what action should be performed based on your choice 
 
 def handle_choice(choice, expenses):
     if choice == "1":
@@ -124,6 +127,7 @@ def handle_choice(choice, expenses):
 
     return True
 
+# Below main function controls the entire expense tracker 
 
 def main():
     expenses = load_expenses()
@@ -140,8 +144,10 @@ def main():
 
         running = handle_choice(choice, expenses)
 
+# Displays the final message after we choose the exit 
 
     show_exit_message()
+
 
 
 if __name__ == "__main__":
